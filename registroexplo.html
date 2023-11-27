@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registroexplo </title>
+    <link rel="stylesheet" href="registroexplo.css">
+    <script src="explotour.js"></script>
+</head>
+<body>
+
+    <div class="contenido">
+        <div class="mitad texto">
+             <h1>explora con nosotros </h1>
+             <form action="#" id="form" class="form_register">
+             <input class="registro" type="text" name="nombre" id="nombres" placeholder="Nombre" required><br>
+             <input class="registro" type="text" name="apellido" id="apellidos" placeholder="Apellidos" required><br>
+             <input class="registro" type="email" name="correo" id="correo" placeholder="Correo Electrónico" required><br>
+             <input class="registro" type="password" name="Contraseña" id="password" placeholder="Contraseña" required><br>
+             <label for="genero">Género:</label>
+             <select class="registro" name="genero" id="genero" required>
+                 <option value="masculino">Masculino</option>
+                 <option value="femenino">Femenino</option>
+                 <option value="otro">Otro</option>
+             </select>
+             
+             <p>Estoy de acuerdo con <a href="#">Términos & Condiciones</a></p>
+             <input class="botons" type="button" value="Registrate" onclick="guardarUsuario()">
+             <p>¿Ya tienes una cuenta? <button class="boton"><a href="index.html">Iniciar Sesión</a></button></p>
+         </form>
+             
+            
+        </div>
+
+        <div class="mitad">
+               <img class="imagen2" src="tour.png.png"/>
+        </div>
+
+    </div>
+</body>
+</html>
